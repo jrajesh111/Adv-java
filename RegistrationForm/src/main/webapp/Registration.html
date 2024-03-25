@@ -1,0 +1,70 @@
+<html>
+<head>
+<title>Registration form</title>
+</head>
+        <body bgcolor="aqua blue">
+            <h1>Registration form</h1>
+                <form  method="get" action="./RegistrationServlet">
+                        <label>User Name:</label>
+                    <input type="text" name="username" required>
+                        <br><br>
+
+                    <label>Password:</label>
+                    <input type="password" name="password" required>
+                    <br><br>
+
+                    <label>user Mobile Number:</label>
+                    <input type="number" name="mobile" required>
+                    <br><br>
+
+                    <label>User Email Id:</label>
+                    <input type="email" name="email" required>
+                    <br><br>
+
+                <label>Gender</label>
+            <input type="radio" name="Gender" value=Male/>Male
+            <input type="radio" name="Gender" value=Female/>FeMale
+            <br><br>
+
+            <label>date of Birth:</label>
+                <input type="date" name="dob" required/>
+                <br><br>
+
+            <label>Qualification:</label>
+            <input type="checkbox" name="qualifiction" value=Bsc />BSc
+            <input type="checkbox" name="qualifiction" value=Msc />MSc
+            <input type="checkbox" name="qualifiction" value=BTech/>BTech
+            <input type="checkbox" name="qualifiction" value=MTech/>MTech
+            <br><br>
+
+                <label>country:</label>
+                <select name="country">
+		        <option>India</option>
+                    <option>China</option>
+                    <option>USA</option>
+                    <option>UK</option>
+                    <option>Africa</option>
+                    </select>
+                    <br><br>
+
+                    <label>Language:</label>
+                    <select name="Language" size="3" Multiple>
+                            <option>TELUGU</option>
+                            <option>HINDI</option>
+                            <option>ENGLISH</option>
+                            <option>KANNADA</option>
+                            <option>THAMIL</option>
+                    </select>
+                    <br><br>
+
+                    <label>comments:</label>
+                    <textarea name="comments" rows="5" cols="25"></textarea>
+                    <br><br>
+
+                    <input type="submit" value="Register"/>
+
+
+            </form>
+
+        </body>
+</html>

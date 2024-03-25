@@ -1,0 +1,5 @@
+127.0.0.1 - - [12/Feb/2024:18:39:02 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:18:39:02 +0530] "GET /RegistrationForm/ HTTP/1.1" 404 772
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:18:39:03 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:18:39:20 +0530] "GET /RegistrationForm/Registration.html HTTP/1.1" 200 2549
+0:0:0:0:0:0:0:1 - - [12/Feb/2024:18:40:10 +0530] "GET /RegistrationForm/RegistrationServlet?username=Rajesh&password=234324&mobile=34432424&email=Jrajesh%40gmail.com&Gender=Male%2F&dob=2024-02-02&qualifiction=Msc&qualifiction=BTech%2F&country=China&Language=TELUGU&Language=HINDI&comments=nhfhmgjmhjjmh HTTP/1.1" 200 394

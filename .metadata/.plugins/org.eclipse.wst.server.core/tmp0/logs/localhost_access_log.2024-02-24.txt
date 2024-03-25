@@ -1,0 +1,12 @@
+127.0.0.1 - - [24/Feb/2024:17:27:35 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:17:27:36 +0530] "GET /CalculatorApplication/ HTTP/1.1" 404 777
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:17:27:36 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:17:27:51 +0530] "GET /CalculatorApplication/Calculator.html HTTP/1.1" 200 927
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:21:17:51 +0530] "GET /CalculatorApplication/ HTTP/1.1" 404 777
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:21:18:09 +0530] "GET /CalculatorApplication/CalculatorServlet?First=2&secound=4&Operation=%2B HTTP/1.1" 200 151
+127.0.0.1 - - [24/Feb/2024:22:17:51 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:22:17:51 +0530] "GET /Loginpage/ HTTP/1.1" 404 765
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:22:18:12 +0530] "GET /Loginpage/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:22:18:27 +0530] "GET /Loginpage/LoginServlet?username=Rajesh&password=Rajesh123 HTTP/1.1" 200 104
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:22:20:03 +0530] "GET /Loginpage/LoginServlet?username=Rajesh&password=Rajesh12 HTTP/1.1" 200 90
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:22:20:17 +0530] "GET /Loginpage/LoginServlet?username=Rajesh&password=%2Cn+n++km HTTP/1.1" 200 90

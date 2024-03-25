@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>product bill calculater</title>
+    </head>
+    <body bgcolor="sky blue">
+        <h1>Product Bill Invoice</h1>
+        <form method="get" action="./ProductServlet">
+            <label><b>product id</b></label>
+            <input type="number" name="proId" placeholder="enter the id" required/>
+            <br><br>
+            <label><b>product name</b></label>
+            <input type="text" name="proName" placeholder="enter the name" required/>
+            <br><br>
+            <label><b>product price</b></label>
+            <input type="number" name="proPrice" placeholder="enter the price" required/>
+            <br><br>
+            <label><b>product Quantity</b></label>
+            <input type="number" name="proQuantity" placeholder="enter the Quantity" min="2" max="10"/>
+            <br><br>
+            <input type="submit" value="productinvoice" />
+        </form>
+        
+    </body>
+</html>

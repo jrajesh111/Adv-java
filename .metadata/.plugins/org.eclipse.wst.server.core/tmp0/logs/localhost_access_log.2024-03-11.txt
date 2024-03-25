@@ -1,0 +1,17 @@
+127.0.0.1 - - [11/Mar/2024:11:24:07 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:24:08 +0530] "GET /ProductAppproject/ HTTP/1.1" 200 3103
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:24:08 +0530] "GET /ProductAppproject/formvalidation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:24:08 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:24:13 +0530] "GET /ProductAppproject/productList.jsp HTTP/1.1" 200 23202474
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:24:53 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:24:54 +0530] "GET /ProductAppproject/EditProductServlet?proId=10 HTTP/1.1" 200 21996
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:25:19 +0530] "POST /ProductAppproject/UpdateProductServlet HTTP/1.1" 500 8192
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:25:52 +0530] "GET /ProductAppproject/add-product.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:27:11 +0530] "POST /ProductAppproject/AddProductServlet HTTP/1.1" 500 8192
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:27:38 +0530] "POST /ProductAppproject/AddProductServlet HTTP/1.1" 200 3140
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:27:43 +0530] "GET /ProductAppproject/productList.jsp HTTP/1.1" 500 8192
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:30:56 +0530] "GET /ProductAppproject/productList.jsp HTTP/1.1" 200 1103
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:33:05 +0530] "POST /ProductAppproject/AddProductServlet HTTP/1.1" 200 23205123
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:11:34:44 +0530] "POST /ProductAppproject/AddProductServlet HTTP/1.1" 200 47864137
+127.0.0.1 - - [11/Mar/2024:14:58:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:14:58:46 +0530] "GET /ProductAppproject/ HTTP/1.1" 304 -
